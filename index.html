@@ -113,20 +113,20 @@
           measurementId: "G-V0267BJD8X"
         };
         const performers = {
-    "DCD": {
-        "color": "#3b82f6"
-    },
-    "ACSDC": {
-        "color": "#f59e0b"
-    },
-    "SCDS": {
+    "9951": {
         "color": "#8b5cf6"
     },
-    "SCDCV": {
+    "98191": {
         "color": "#ec4899"
     },
-    "VFSV": {
+    "54919819": {
         "color": "#10b981"
+    },
+    "CEFEGVR": {
+        "color": "#3b82f6"
+    },
+    "ETRBRHTG": {
+        "color": "#f59e0b"
     },
     "全體": {
         "color": "#a855f7"
@@ -134,27 +134,179 @@
 };
         const schedule = [
 {
-    "id": "mod_action_1",
-    "title": "開心輪 (7下)",
-    "duration": 60,
-    "type": "action",
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
     "details": null,
     "performers": [
-        "VFSV",
-        "SCDCV",
-        "SCDS"
+        "98191",
+        "9951",
+        "ETRBRHTG"
     ]
 },
 {
-    "id": "mod_chakra_1",
-    "title": "1號 海底輪",
+    "id": "mod_chakra_3",
+    "title": "3號 太陽神經叢",
     "duration": 60,
     "type": "rhythm",
     "details": {
-        "rhythm": 1
+        "rhythm": 4
     },
     "performers": [
-        "全體"
+        "9951",
+        "ETRBRHTG",
+        "CEFEGVR"
+    ]
+},
+{
+    "id": "mod_chakra_5",
+    "title": "5號 喉輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 7
+    },
+    "performers": [
+        "ETRBRHTG",
+        "CEFEGVR"
+    ]
+},
+{
+    "id": "mod_chakra_6",
+    "title": "6號 眉心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 8
+    },
+    "performers": [
+        "9951",
+        "54919819",
+        "98191",
+        "ETRBRHTG"
+    ]
+},
+{
+    "id": "mod_gantt_2",
+    "title": "圖騰 & 無限 (第二輪)",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "performer": "CEFEGVR",
+                "type": "🔯 圖騰",
+                "start": 0,
+                "duration": 120
+            },
+            {
+                "performer": "ETRBRHTG",
+                "type": "♾️ 無限",
+                "start": 60,
+                "duration": 120
+            },
+            {
+                "performer": "9951",
+                "type": "🔯 圖騰",
+                "start": 120,
+                "duration": 120
+            },
+            {
+                "performer": "54919819",
+                "type": "♾️ 無限",
+                "start": 180,
+                "duration": 120
+            },
+            {
+                "performer": "98191",
+                "type": "🔯 圖騰",
+                "start": 240,
+                "duration": 120
+            }
+        ]
+    },
+    "performers": [
+        "CEFEGVR",
+        "ETRBRHTG",
+        "9951",
+        "54919819",
+        "98191"
+    ]
+},
+{
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限 (第一輪)",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "performer": "CEFEGVR",
+                "type": "♾️ 無限",
+                "start": 0,
+                "duration": 120
+            },
+            {
+                "performer": "ETRBRHTG",
+                "type": "🔯 圖騰",
+                "start": 60,
+                "duration": 120
+            },
+            {
+                "performer": "9951",
+                "type": "♾️ 無限",
+                "start": 120,
+                "duration": 120
+            },
+            {
+                "performer": "54919819",
+                "type": "🔯 圖騰",
+                "start": 180,
+                "duration": 120
+            },
+            {
+                "performer": "98191",
+                "type": "♾️ 無限",
+                "start": 240,
+                "duration": 120
+            }
+        ]
+    },
+    "performers": [
+        "CEFEGVR",
+        "ETRBRHTG",
+        "9951",
+        "54919819",
+        "98191"
+    ]
+},
+{
+    "id": "mod_outro_1",
+    "title": "收尾-敲「空」",
+    "duration": 15,
+    "type": "sequence",
+    "details": null,
+    "performers": [
+        "CEFEGVR",
+        "ETRBRHTG",
+        "54919819",
+        "98191",
+        "9951"
+    ]
+},
+{
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
+    "details": null,
+    "performers": [
+        "CEFEGVR",
+        "ETRBRHTG",
+        "54919819",
+        "98191",
+        "9951"
     ]
 },
 {
@@ -166,189 +318,40 @@
         "layers": [
             {
                 "name": "果實鈴 🍒",
-                "performer": "DCD",
+                "performer": "CEFEGVR",
                 "start": 0,
                 "end": 90
             },
             {
                 "name": "風鈴 🎐",
-                "performer": "VFSV, SCDS",
+                "performer": "54919819, 9951",
                 "start": 0,
                 "end": 120
             },
             {
                 "name": "宇宙音 (空)",
-                "performer": "SCDCV, ACSDC",
+                "performer": "98191, ETRBRHTG",
                 "start": 30,
                 "end": 150
             }
         ]
     },
     "performers": [
-        "DCD",
-        "VFSV",
-        "SCDS",
-        "SCDCV",
-        "ACSDC"
+        "CEFEGVR",
+        "54919819",
+        "9951",
+        "98191",
+        "ETRBRHTG"
     ]
 },
 {
-    "id": "mod_etheric",
-    "title": "乙太體 & 增能",
-    "duration": 300,
-    "type": "multi_timer",
-    "details": {
-        "timers": [
-            {
-                "performer": "DCD",
-                "duration": 210
-            },
-            {
-                "performer": "SCDCV",
-                "duration": 210
-            },
-            {
-                "performer": "VFSV",
-                "duration": 210
-            },
-            {
-                "performer": "SCDS",
-                "duration": 240
-            },
-            {
-                "performer": "ACSDC",
-                "duration": 300
-            }
-        ]
-    },
-    "performers": [
-        "DCD",
-        "SCDCV",
-        "VFSV",
-        "SCDS",
-        "ACSDC"
-    ]
-},
-{
-    "id": "mod_gantt_1",
-    "title": "圖騰 & 無限 (第一輪)",
-    "duration": 360,
-    "type": "gantt",
-    "details": {
-        "lanes": [
-            {
-                "performer": "DCD",
-                "type": "♾️ 無限",
-                "start": 0,
-                "duration": 120
-            },
-            {
-                "performer": "ACSDC",
-                "type": "🔯 圖騰",
-                "start": 60,
-                "duration": 120
-            },
-            {
-                "performer": "SCDS",
-                "type": "♾️ 無限",
-                "start": 120,
-                "duration": 120
-            },
-            {
-                "performer": "VFSV",
-                "type": "🔯 圖騰",
-                "start": 180,
-                "duration": 120
-            },
-            {
-                "performer": "SCDCV",
-                "type": "♾️ 無限",
-                "start": 240,
-                "duration": 120
-            }
-        ]
-    },
-    "performers": [
-        "DCD",
-        "ACSDC",
-        "SCDS",
-        "VFSV",
-        "SCDCV"
-    ]
-},
-{
-    "id": "mod_gantt_2",
-    "title": "圖騰 & 無限 (第二輪)",
-    "duration": 360,
-    "type": "gantt",
-    "details": {
-        "lanes": [
-            {
-                "performer": "DCD",
-                "type": "🔯 圖騰",
-                "start": 0,
-                "duration": 120
-            },
-            {
-                "performer": "ACSDC",
-                "type": "♾️ 無限",
-                "start": 60,
-                "duration": 120
-            },
-            {
-                "performer": "SCDS",
-                "type": "🔯 圖騰",
-                "start": 120,
-                "duration": 120
-            },
-            {
-                "performer": "VFSV",
-                "type": "♾️ 無限",
-                "start": 180,
-                "duration": 120
-            },
-            {
-                "performer": "SCDCV",
-                "type": "🔯 圖騰",
-                "start": 240,
-                "duration": 120
-            }
-        ]
-    },
-    "performers": [
-        "DCD",
-        "ACSDC",
-        "SCDS",
-        "VFSV",
-        "SCDCV"
-    ]
-},
-{
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_end",
+    "title": "演出結束",
+    "duration": 0,
+    "type": "end",
     "details": null,
     "performers": [
-        "DCD",
-        "ACSDC",
-        "VFSV",
-        "SCDCV",
-        "SCDS"
-    ]
-},
-{
-    "id": "mod_outro_2",
-    "title": "收尾-海豚音進場",
-    "duration": 15,
-    "type": "sequence",
-    "details": null,
-    "performers": [
-        "DCD",
-        "ACSDC",
-        "VFSV",
-        "SCDCV",
-        "SCDS"
+        "全體"
     ]
 }
 ];
