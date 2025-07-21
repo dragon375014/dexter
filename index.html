@@ -114,16 +114,16 @@
         };
         const performers = {
     "鈺臻": {
-        "color": "#d9ec37"
+        "color": "#3b82f6"
     },
     "金龍": {
-        "color": "#ad3e00"
+        "color": "#f59e0b"
     },
     "小米": {
-        "color": "#012f7b"
+        "color": "#8b5cf6"
     },
     "candy": {
-        "color": "#ff4015"
+        "color": "#ec4899"
     },
     "秋雅": {
         "color": "#10b981"
@@ -134,15 +134,56 @@
 };
         const schedule = [
 {
-    "id": "mod_action_1",
-    "title": "開心輪 (7下)",
-    "duration": 120,
-    "type": "action",
+    "id": "mod_awaken",
+    "title": "醒鑼",
+    "duration": 180,
+    "type": "default",
     "performers": [
-        "秋雅",
+        "全體",
+        "小米",
+        "金龍",
+        "鈺臻",
+        "candy"
+    ]
+},
+{
+    "id": "mod_chakra_1",
+    "title": "1號 海底輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 1
+    },
+    "performers": [
+        "小米",
+        "鈺臻",
+        "金龍"
+    ]
+},
+{
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
+    "performers": [
+        "全體",
+        "金龍",
+        "小米",
+        "candy"
+    ]
+},
+{
+    "id": "mod_chakra_2",
+    "title": "2號 生殖輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 3
+    },
+    "performers": [
         "小米",
         "candy",
-        "金龍"
+        "秋雅"
     ]
 },
 {
@@ -154,10 +195,11 @@
         "rhythm": 4
     },
     "performers": [
-        "全體",
+        "candy",
         "小米",
         "金龍",
-        "鈺臻"
+        "鈺臻",
+        "秋雅"
     ]
 },
 {
@@ -170,7 +212,23 @@
     },
     "performers": [
         "全體",
-        "小米"
+        "小米",
+        "candy"
+    ]
+},
+{
+    "id": "mod_chakra_5",
+    "title": "5號 喉輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 7
+    },
+    "performers": [
+        "全體",
+        "小米",
+        "candy",
+        "金龍"
     ]
 },
 {
@@ -183,13 +241,125 @@
     },
     "performers": [
         "全體",
+        "金龍",
         "小米",
         "鈺臻"
     ]
 },
 {
+    "id": "mod_chakra_6",
+    "title": "6號 眉心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 8
+    },
+    "performers": [
+        "全體",
+        "金龍",
+        "鈺臻",
+        "小米",
+        "秋雅"
+    ]
+},
+{
+    "id": "mod_sound_layer",
+    "title": "聲音交織",
+    "duration": 150,
+    "type": "sound_layer",
+    "details": {
+        "layers": [
+            {
+                "name": "果實鈴 🍒",
+                "performer": "鈺臻",
+                "start": 0,
+                "end": 90
+            },
+            {
+                "name": "風鈴 🎐",
+                "performer": "秋雅, 小米",
+                "start": 0,
+                "end": 120
+            },
+            {
+                "name": "宇宙音 (空)",
+                "performer": "candy, 金龍",
+                "start": 30,
+                "end": 150
+            }
+        ]
+    },
+    "performers": [
+        "鈺臻",
+        "秋雅",
+        "小米",
+        "candy",
+        "金龍"
+    ]
+},
+{
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限 (第一輪)",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "performer": "鈺臻",
+                "type": "♾️ 無限",
+                "start": 0,
+                "duration": 120
+            },
+            {
+                "performer": "金龍",
+                "type": "🔯 圖騰",
+                "start": 60,
+                "duration": 120
+            },
+            {
+                "performer": "小米",
+                "type": "♾️ 無限",
+                "start": 120,
+                "duration": 120
+            },
+            {
+                "performer": "秋雅",
+                "type": "🔯 圖騰",
+                "start": 180,
+                "duration": 120
+            },
+            {
+                "performer": "candy",
+                "type": "♾️ 無限",
+                "start": 240,
+                "duration": 120
+            }
+        ]
+    },
+    "performers": [
+        "鈺臻",
+        "金龍",
+        "小米",
+        "秋雅",
+        "candy"
+    ]
+},
+{
     "id": "mod_outro_1",
     "title": "收尾-敲「空」",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "鈺臻",
+        "金龍",
+        "秋雅",
+        "candy",
+        "小米"
+    ]
+},
+{
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
     "duration": 15,
     "type": "sequence",
     "performers": [
