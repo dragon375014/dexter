@@ -113,19 +113,19 @@
           measurementId: "G-V0267BJD8X"
         };
         const performers = {
-    "測試": {
+    "DCD": {
         "color": "#3b82f6"
     },
-    "Test": {
+    "ACSDC": {
         "color": "#f59e0b"
     },
-    "A": {
+    "SCDS": {
         "color": "#8b5cf6"
     },
-    "B": {
+    "SCDCV": {
         "color": "#ec4899"
     },
-    "C": {
+    "VFSV": {
         "color": "#10b981"
     },
     "全體": {
@@ -134,14 +134,15 @@
 };
         const schedule = [
 {
-    "id": "mod_intro_1",
-    "title": "前導-海浪鼓",
-    "duration": 20,
-    "type": "default",
+    "id": "mod_action_1",
+    "title": "開心輪 (7下)",
+    "duration": 60,
+    "type": "action",
+    "details": null,
     "performers": [
-        "A",
-        "B",
-        "C"
+        "VFSV",
+        "SCDCV",
+        "SCDS"
     ]
 },
 {
@@ -153,77 +154,7 @@
         "rhythm": 1
     },
     "performers": [
-        "Test",
-        "A"
-    ]
-},
-{
-    "id": "mod_chakra_2",
-    "title": "2號 生殖輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 3
-    },
-    "performers": [
-        "Test",
-        "A",
-        "B"
-    ]
-},
-{
-    "id": "mod_chakra_5",
-    "title": "5號 喉輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 7
-    },
-    "performers": [
-        "Test",
-        "A",
-        "B",
-        "C"
-    ]
-},
-{
-    "id": "mod_chakra_4",
-    "title": "4號 心輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 5
-    },
-    "performers": [
-        "測試",
-        "Test",
-        "A"
-    ]
-},
-{
-    "id": "mod_chakra_6",
-    "title": "6號 眉心輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 8
-    },
-    "performers": [
-        "測試",
-        "Test"
-    ]
-},
-{
-    "id": "mod_chakra_7",
-    "title": "7號 頂輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 10
-    },
-    "performers": [
-        "B",
-        "C"
+        "全體"
     ]
 },
 {
@@ -235,26 +166,67 @@
         "layers": [
             {
                 "name": "果實鈴 🍒",
-                "performer": "鈺",
+                "performer": "DCD",
                 "start": 0,
                 "end": 90
             },
             {
                 "name": "風鈴 🎐",
-                "performer": "秋, 小",
+                "performer": "VFSV, SCDS",
                 "start": 0,
                 "end": 120
             },
             {
                 "name": "宇宙音 (空)",
-                "performer": "c, 金",
+                "performer": "SCDCV, ACSDC",
                 "start": 30,
                 "end": 150
             }
         ]
     },
     "performers": [
-        "全體"
+        "DCD",
+        "VFSV",
+        "SCDS",
+        "SCDCV",
+        "ACSDC"
+    ]
+},
+{
+    "id": "mod_etheric",
+    "title": "乙太體 & 增能",
+    "duration": 300,
+    "type": "multi_timer",
+    "details": {
+        "timers": [
+            {
+                "performer": "DCD",
+                "duration": 210
+            },
+            {
+                "performer": "SCDCV",
+                "duration": 210
+            },
+            {
+                "performer": "VFSV",
+                "duration": 210
+            },
+            {
+                "performer": "SCDS",
+                "duration": 240
+            },
+            {
+                "performer": "ACSDC",
+                "duration": 300
+            }
+        ]
+    },
+    "performers": [
+        "DCD",
+        "SCDCV",
+        "VFSV",
+        "SCDS",
+        "ACSDC"
     ]
 },
 {
@@ -265,31 +237,31 @@
     "details": {
         "lanes": [
             {
-                "performer": "鈺",
+                "performer": "DCD",
                 "type": "♾️ 無限",
                 "start": 0,
                 "duration": 120
             },
             {
-                "performer": "金",
+                "performer": "ACSDC",
                 "type": "🔯 圖騰",
                 "start": 60,
                 "duration": 120
             },
             {
-                "performer": "小",
+                "performer": "SCDS",
                 "type": "♾️ 無限",
                 "start": 120,
                 "duration": 120
             },
             {
-                "performer": "秋",
+                "performer": "VFSV",
                 "type": "🔯 圖騰",
                 "start": 180,
                 "duration": 120
             },
             {
-                "performer": "c",
+                "performer": "SCDCV",
                 "type": "♾️ 無限",
                 "start": 240,
                 "duration": 120
@@ -297,11 +269,11 @@
         ]
     },
     "performers": [
-        "A",
-        "B",
-        "C",
-        "Test",
-        "測試"
+        "DCD",
+        "ACSDC",
+        "SCDS",
+        "VFSV",
+        "SCDCV"
     ]
 },
 {
@@ -312,31 +284,31 @@
     "details": {
         "lanes": [
             {
-                "performer": "鈺",
+                "performer": "DCD",
                 "type": "🔯 圖騰",
                 "start": 0,
                 "duration": 120
             },
             {
-                "performer": "金",
+                "performer": "ACSDC",
                 "type": "♾️ 無限",
                 "start": 60,
                 "duration": 120
             },
             {
-                "performer": "小",
+                "performer": "SCDS",
                 "type": "🔯 圖騰",
                 "start": 120,
                 "duration": 120
             },
             {
-                "performer": "秋",
+                "performer": "VFSV",
                 "type": "♾️ 無限",
                 "start": 180,
                 "duration": 120
             },
             {
-                "performer": "c",
+                "performer": "SCDCV",
                 "type": "🔯 圖騰",
                 "start": 240,
                 "duration": 120
@@ -344,11 +316,11 @@
         ]
     },
     "performers": [
-        "測試",
-        "Test",
-        "A",
-        "B",
-        "C"
+        "DCD",
+        "ACSDC",
+        "SCDS",
+        "VFSV",
+        "SCDCV"
     ]
 },
 {
@@ -356,22 +328,27 @@
     "title": "收尾-敲「空」",
     "duration": 15,
     "type": "sequence",
+    "details": null,
     "performers": [
-        "測試",
-        "Test",
-        "A",
-        "B",
-        "C",
-        "全體"
+        "DCD",
+        "ACSDC",
+        "VFSV",
+        "SCDCV",
+        "SCDS"
     ]
 },
 {
-    "id": "mod_end",
-    "title": "演出結束",
-    "duration": 0,
-    "type": "end",
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
+    "details": null,
     "performers": [
-        "全體"
+        "DCD",
+        "ACSDC",
+        "VFSV",
+        "SCDCV",
+        "SCDS"
     ]
 }
 ];
