@@ -113,19 +113,19 @@
           measurementId: "G-V0267BJD8X"
         };
         const performers = {
-    "睿宇": {
+    "測試": {
         "color": "#3b82f6"
     },
-    "家銘": {
+    "Test": {
         "color": "#f59e0b"
     },
-    "艾蒂": {
+    "A": {
         "color": "#8b5cf6"
     },
-    "威年": {
+    "B": {
         "color": "#ec4899"
     },
-    "相知": {
+    "C": {
         "color": "#10b981"
     },
     "全體": {
@@ -134,33 +134,56 @@
 };
         const schedule = [
 {
-    "id": "mod_intro_2",
-    "title": "前導-海豚音",
-    "duration": 30,
+    "id": "mod_intro_1",
+    "title": "前導-海浪鼓",
+    "duration": 20,
     "type": "default",
     "performers": [
-        "艾蒂",
-        "家銘",
-        "相知"
+        "A",
+        "B",
+        "C"
     ]
 },
 {
-    "id": "mod_action_1",
-    "title": "開心輪 (7下)",
+    "id": "mod_chakra_1",
+    "title": "1號 海底輪",
     "duration": 60,
-    "type": "action",
+    "type": "rhythm",
+    "details": {
+        "rhythm": 1
+    },
     "performers": [
-        "睿宇"
+        "Test",
+        "A"
     ]
 },
 {
-    "id": "mod_cleanse",
-    "title": "逆時針清理 (3圈)",
-    "duration": 135,
-    "type": "default",
+    "id": "mod_chakra_2",
+    "title": "2號 生殖輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 3
+    },
     "performers": [
-        "威年",
-        "艾蒂"
+        "Test",
+        "A",
+        "B"
+    ]
+},
+{
+    "id": "mod_chakra_5",
+    "title": "5號 喉輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 7
+    },
+    "performers": [
+        "Test",
+        "A",
+        "B",
+        "C"
     ]
 },
 {
@@ -172,9 +195,22 @@
         "rhythm": 5
     },
     "performers": [
-        "家銘",
-        "艾蒂",
-        "相知"
+        "測試",
+        "Test",
+        "A"
+    ]
+},
+{
+    "id": "mod_chakra_6",
+    "title": "6號 眉心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 8
+    },
+    "performers": [
+        "測試",
+        "Test"
     ]
 },
 {
@@ -186,9 +222,8 @@
         "rhythm": 10
     },
     "performers": [
-        "威年",
-        "艾蒂",
-        "睿宇"
+        "B",
+        "C"
     ]
 },
 {
@@ -219,8 +254,7 @@
         ]
     },
     "performers": [
-        "家銘",
-        "艾蒂"
+        "全體"
     ]
 },
 {
@@ -263,8 +297,58 @@
         ]
     },
     "performers": [
-        "艾蒂",
-        "家銘"
+        "A",
+        "B",
+        "C",
+        "Test",
+        "測試"
+    ]
+},
+{
+    "id": "mod_gantt_2",
+    "title": "圖騰 & 無限 (第二輪)",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "performer": "鈺",
+                "type": "🔯 圖騰",
+                "start": 0,
+                "duration": 120
+            },
+            {
+                "performer": "金",
+                "type": "♾️ 無限",
+                "start": 60,
+                "duration": 120
+            },
+            {
+                "performer": "小",
+                "type": "🔯 圖騰",
+                "start": 120,
+                "duration": 120
+            },
+            {
+                "performer": "秋",
+                "type": "♾️ 無限",
+                "start": 180,
+                "duration": 120
+            },
+            {
+                "performer": "c",
+                "type": "🔯 圖騰",
+                "start": 240,
+                "duration": 120
+            }
+        ]
+    },
+    "performers": [
+        "測試",
+        "Test",
+        "A",
+        "B",
+        "C"
     ]
 },
 {
@@ -273,15 +357,11 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "全體"
-    ]
-},
-{
-    "id": "mod_outro_2",
-    "title": "收尾-海豚音進場",
-    "duration": 15,
-    "type": "sequence",
-    "performers": [
+        "測試",
+        "Test",
+        "A",
+        "B",
+        "C",
         "全體"
     ]
 },
