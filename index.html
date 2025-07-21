@@ -113,19 +113,19 @@
           measurementId: "G-V0267BJD8X"
         };
         const performers = {
-    "Aaaaaa": {
+    "睿宇": {
         "color": "#3b82f6"
     },
-    "Ccc": {
+    "家銘": {
         "color": "#f59e0b"
     },
-    "Sss": {
+    "艾蒂": {
         "color": "#8b5cf6"
     },
-    "Tttr": {
+    "威年": {
         "color": "#ec4899"
     },
-    "Ffcccc": {
+    "相知": {
         "color": "#10b981"
     },
     "全體": {
@@ -134,54 +134,33 @@
 };
         const schedule = [
 {
+    "id": "mod_intro_2",
+    "title": "前導-海豚音",
+    "duration": 30,
+    "type": "default",
+    "performers": [
+        "艾蒂",
+        "家銘",
+        "相知"
+    ]
+},
+{
     "id": "mod_action_1",
     "title": "開心輪 (7下)",
     "duration": 60,
     "type": "action",
     "performers": [
-        "Sss",
-        "Ccc",
-        "Ffcccc"
+        "睿宇"
     ]
 },
 {
-    "id": "mod_chakra_1",
-    "title": "1號 海底輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 1
-    },
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
     "performers": [
-        "Sss",
-        "Ccc"
-    ]
-},
-{
-    "id": "mod_chakra_2",
-    "title": "2號 生殖輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 3
-    },
-    "performers": [
-        "Sss",
-        "Ccc",
-        "Tttr"
-    ]
-},
-{
-    "id": "mod_chakra_3",
-    "title": "3號 太陽神經叢",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 4
-    },
-    "performers": [
-        "Sss",
-        "Ccc"
+        "威年",
+        "艾蒂"
     ]
 },
 {
@@ -193,36 +172,9 @@
         "rhythm": 5
     },
     "performers": [
-        "Ccc",
-        "Aaaaaa"
-    ]
-},
-{
-    "id": "mod_chakra_5",
-    "title": "5號 喉輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 7
-    },
-    "performers": [
-        "全體",
-        "Ccc",
-        "Aaaaaa",
-        "Ffcccc"
-    ]
-},
-{
-    "id": "mod_chakra_6",
-    "title": "6號 眉心輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 8
-    },
-    "performers": [
-        "Ccc",
-        "Aaaaaa"
+        "家銘",
+        "艾蒂",
+        "相知"
     ]
 },
 {
@@ -234,22 +186,85 @@
         "rhythm": 10
     },
     "performers": [
-        "Tttr",
-        "Sss",
-        "Ccc",
-        "Aaaaaa",
-        "Ffcccc"
+        "威年",
+        "艾蒂",
+        "睿宇"
     ]
 },
 {
-    "id": "mod_outro_2",
-    "title": "收尾-海豚音進場",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_sound_layer",
+    "title": "聲音交織",
+    "duration": 150,
+    "type": "sound_layer",
+    "details": {
+        "layers": [
+            {
+                "name": "果實鈴 🍒",
+                "performer": "鈺",
+                "start": 0,
+                "end": 90
+            },
+            {
+                "name": "風鈴 🎐",
+                "performer": "秋, 小",
+                "start": 0,
+                "end": 120
+            },
+            {
+                "name": "宇宙音 (空)",
+                "performer": "c, 金",
+                "start": 30,
+                "end": 150
+            }
+        ]
+    },
     "performers": [
-        "Sss",
-        "Ccc",
-        "Ffcccc"
+        "家銘",
+        "艾蒂"
+    ]
+},
+{
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限 (第一輪)",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "performer": "鈺",
+                "type": "♾️ 無限",
+                "start": 0,
+                "duration": 120
+            },
+            {
+                "performer": "金",
+                "type": "🔯 圖騰",
+                "start": 60,
+                "duration": 120
+            },
+            {
+                "performer": "小",
+                "type": "♾️ 無限",
+                "start": 120,
+                "duration": 120
+            },
+            {
+                "performer": "秋",
+                "type": "🔯 圖騰",
+                "start": 180,
+                "duration": 120
+            },
+            {
+                "performer": "c",
+                "type": "♾️ 無限",
+                "start": 240,
+                "duration": 120
+            }
+        ]
+    },
+    "performers": [
+        "艾蒂",
+        "家銘"
     ]
 },
 {
@@ -258,9 +273,16 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "Ccc",
-        "Aaaaaa",
-        "Ffcccc"
+        "全體"
+    ]
+},
+{
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "全體"
     ]
 },
 {
