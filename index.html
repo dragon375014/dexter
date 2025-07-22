@@ -116,7 +116,7 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "AA": {
+    "CSCDSC": {
         "color": "#3b82f6"
     },
     "BB": {
@@ -137,49 +137,36 @@
 };
         const schedule = [
 {
-    "id": "mod_chakra_5",
-    "title": "5號 喉輪",
+    "id": "mod_chakra_2",
+    "title": "2號 生殖輪",
     "duration": 60,
     "type": "rhythm",
     "details": {
-        "rhythm": 7
+        "rhythm": 3
     },
     "performers": [
         "全體"
     ]
 },
 {
-    "id": "mod_chakra_6",
-    "title": "6號 眉心輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 8
-    },
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
     "performers": [
         "全體"
     ]
 },
 {
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 150,
-    "type": "sound_layer",
+    "id": "mod_chakra_7",
+    "title": "7號 頂輪",
+    "duration": 60,
+    "type": "rhythm",
     "details": {
-        "layers": [
-            {
-                "id": "id_1753188435299_w6injmerc",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": ""
-            }
-        ]
+        "rhythm": 10
     },
     "performers": [
-        "BB",
-        "CC",
-        "EEE"
+        "全體"
     ]
 },
 {
@@ -190,9 +177,14 @@
     "details": {
         "timers": [
             {
+                "start": 5,
+                "end": 50,
+                "performer": "BB"
+            },
+            {
                 "start": 0,
                 "end": 300,
-                "performer": "BB"
+                "performer": "CC"
             },
             {
                 "start": 0,
@@ -203,17 +195,45 @@
     },
     "performers": [
         "BB",
+        "CC",
         "EEE"
     ]
 },
 {
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_sound_layer",
+    "title": "聲音交織",
+    "duration": 150,
+    "type": "sound_layer",
+    "details": {
+        "layers": [
+            {
+                "id": "id_1753188593480_xmpcqvjq0",
+                "name": "風鈴",
+                "start": 0,
+                "end": 150,
+                "performer": "BB"
+            },
+            {
+                "id": "id_1753188603704_s3xmn1f1r",
+                "name": "海浪鼓",
+                "start": 0,
+                "end": 150,
+                "performer": "CC"
+            },
+            {
+                "id": "id_1753188611991_qvoltxm8f",
+                "name": "果實",
+                "start": 50,
+                "end": 100,
+                "performer": "DDD"
+            }
+        ]
+    },
     "performers": [
         "BB",
-        "CC"
+        "CC",
+        "DDD",
+        "EEE"
     ]
 },
 {
@@ -224,15 +244,64 @@
     "details": {
         "lanes": [
             {
+                "type": "無限",
+                "start": 0,
+                "end": 360,
+                "performer": "CC"
+            },
+            {
                 "type": "圖騰",
                 "start": 0,
                 "end": 360,
                 "performer": "BB"
+            },
+            {
+                "type": "8",
+                "start": 0,
+                "end": 360,
+                "performer": "DDD"
+            },
+            {
+                "type": "無限",
+                "start": 0,
+                "end": 360,
+                "performer": "EEE"
+            },
+            {
+                "type": "圖騰",
+                "start": 0,
+                "end": 360,
+                "performer": "CSCDSC"
             }
         ]
     },
     "performers": [
+        "CC",
+        "BB",
+        "DDD",
+        "EEE",
+        "CSCDSC"
+    ]
+},
+{
+    "id": "mod_outro_1",
+    "title": "收尾-敲「空」",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "DDD",
+        "CC",
         "BB"
+    ]
+},
+{
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "DDD",
+        "CC"
     ]
 }
 ];
