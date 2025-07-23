@@ -116,26 +116,51 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "CSCDSC": {
-        "color": "#3b82f6"
+    "AA": {
+        "color": "#0056d6"
     },
     "BB": {
         "color": "#f59e0b"
     },
-    "CC": {
-        "color": "#8b5cf6"
+    "CC you": {
+        "color": "#c3d117"
     },
-    "DDD": {
+    "一一": {
         "color": "#ec4899"
     },
-    "EEE": {
-        "color": "#10b981"
+    "二二": {
+        "color": "#ad3e00"
     },
     "全體": {
         "color": "#a855f7"
     }
 };
         const schedule = [
+{
+    "id": "mod_awaken",
+    "title": "醒鑼",
+    "duration": 180,
+    "type": "default",
+    "performers": [
+        "CC you",
+        "BB",
+        "一一"
+    ]
+},
+{
+    "id": "mod_chakra_3",
+    "title": "3號 太陽神經叢",
+    "duration": 20,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 4
+    },
+    "performers": [
+        "BB",
+        "CC you",
+        "二二"
+    ]
+},
 {
     "id": "mod_chakra_2",
     "title": "2號 生殖輪",
@@ -145,16 +170,24 @@
         "rhythm": 3
     },
     "performers": [
-        "全體"
+        "BB",
+        "CC you",
+        "一一",
+        "AA"
     ]
 },
 {
-    "id": "mod_cleanse",
-    "title": "逆時針清理 (3圈)",
-    "duration": 135,
-    "type": "default",
+    "id": "mod_chakra_4",
+    "title": "4號 心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 5
+    },
     "performers": [
-        "全體"
+        "全體",
+        "AA",
+        "BB"
     ]
 },
 {
@@ -166,37 +199,51 @@
         "rhythm": 10
     },
     "performers": [
-        "全體"
+        "AA",
+        "一一",
+        "二二"
     ]
 },
 {
     "id": "mod_etheric",
     "title": "乙太體 & 增能",
-    "duration": 300,
+    "duration": 200,
     "type": "multi_timer",
     "details": {
         "timers": [
             {
-                "start": 5,
-                "end": 50,
+                "start": 0,
+                "end": 200,
+                "performer": "AA"
+            },
+            {
+                "start": 0,
+                "end": 200,
                 "performer": "BB"
             },
             {
-                "start": 0,
-                "end": 300,
-                "performer": "CC"
+                "start": 50,
+                "end": 150,
+                "performer": "CC you"
             },
             {
                 "start": 0,
-                "end": 300,
-                "performer": "EEE"
+                "end": 200,
+                "performer": "二二"
+            },
+            {
+                "start": 30,
+                "end": 200,
+                "performer": "全體"
             }
         ]
     },
     "performers": [
+        "AA",
         "BB",
-        "CC",
-        "EEE"
+        "CC you",
+        "二二",
+        "全體"
     ]
 },
 {
@@ -207,33 +254,32 @@
     "details": {
         "layers": [
             {
-                "id": "id_1753188593480_xmpcqvjq0",
-                "name": "風鈴",
+                "id": "id_1753236265485_yrjaim9yk",
+                "name": "新樂器🎷",
                 "start": 0,
                 "end": 150,
                 "performer": "BB"
             },
             {
-                "id": "id_1753188603704_s3xmn1f1r",
-                "name": "海浪鼓",
+                "id": "id_1753236272659_xthbk2an5",
+                "name": "新樂器🎸",
                 "start": 0,
                 "end": 150,
-                "performer": "CC"
+                "performer": "AA"
             },
             {
-                "id": "id_1753188611991_qvoltxm8f",
-                "name": "果實",
-                "start": 50,
-                "end": 100,
-                "performer": "DDD"
+                "id": "id_1753236281731_wnkahcvbm",
+                "name": "新樂器🎻",
+                "start": 0,
+                "end": 150,
+                "performer": "二二"
             }
         ]
     },
     "performers": [
         "BB",
-        "CC",
-        "DDD",
-        "EEE"
+        "AA",
+        "二二"
     ]
 },
 {
@@ -244,43 +290,43 @@
     "details": {
         "lanes": [
             {
-                "type": "無限",
+                "type": "圖騰",
                 "start": 0,
                 "end": 360,
-                "performer": "CC"
+                "performer": "AA"
             },
             {
-                "type": "圖騰",
+                "type": "無限",
                 "start": 0,
                 "end": 360,
                 "performer": "BB"
             },
             {
-                "type": "8",
+                "type": "圖騰",
                 "start": 0,
                 "end": 360,
-                "performer": "DDD"
+                "performer": "CC you"
             },
             {
                 "type": "無限",
                 "start": 0,
                 "end": 360,
-                "performer": "EEE"
+                "performer": "一一"
             },
             {
-                "type": "圖騰",
+                "type": "感恩",
                 "start": 0,
                 "end": 360,
-                "performer": "CSCDSC"
+                "performer": "二二"
             }
         ]
     },
     "performers": [
-        "CC",
+        "AA",
         "BB",
-        "DDD",
-        "EEE",
-        "CSCDSC"
+        "CC you",
+        "一一",
+        "二二"
     ]
 },
 {
@@ -289,9 +335,9 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "DDD",
-        "CC",
-        "BB"
+        "CC you",
+        "BB",
+        "AA"
     ]
 },
 {
@@ -300,8 +346,24 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "DDD",
-        "CC"
+        "CC you",
+        "BB",
+        "一一",
+        "二二",
+        "AA"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "自由定義",
+    "duration": 60,
+    "type": "custom",
+    "details": {
+        "description": "唱誦+👏"
+    },
+    "performers": [
+        "CC you",
+        "BB"
     ]
 }
 ];
