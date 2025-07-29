@@ -116,77 +116,96 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "AA": {
-        "color": "#3b82f6"
+    "DCSV": {
+        "color": "#0062ff"
     },
-    "BB": {
-        "color": "#f59e0b"
+    "SWV": {
+        "color": "#ff0000"
     },
-    "CC": {
-        "color": "#8b5cf6"
+    "YUJHTRGRF": {
+        "color": "#5ff7ec"
     },
     "DDD": {
-        "color": "#ec4899"
+        "color": "#ff0080"
     },
-    "EEE": {
-        "color": "#10b981"
+    "GFDS": {
+        "color": "#ffa200"
     },
     "全體": {
-        "color": "#a855f7"
+        "color": "#ff00bb"
     }
 };
         const schedule = [
 {
-    "id": "mod_awaken",
-    "title": "醒鑼",
-    "duration": 10,
-    "type": "default",
+    "id": "mod_chakra_3",
+    "title": "3號 太陽神經叢",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 4
+    },
     "performers": [
+        "DCSV",
+        "YUJHTRGRF",
+        "SWV"
+    ]
+},
+{
+    "id": "mod_chakra_7",
+    "title": "7號 頂輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 10
+    },
+    "performers": [
+        "YUJHTRGRF",
+        "SWV",
+        "DDD"
+    ]
+},
+{
+    "id": "mod_sound_layer",
+    "title": "聲音交織",
+    "duration": 150,
+    "type": "sound_layer",
+    "details": {
+        "layers": []
+    },
+    "performers": [
+        "GFDS",
         "DDD",
-        "CC",
-        "BB"
+        "YUJHTRGRF"
     ]
 },
 {
-    "id": "mod_chakra_1",
-    "title": "1號 海底輪",
-    "duration": 60,
-    "type": "rhythm",
+    "id": "mod_etheric",
+    "title": "乙太體 & 增能",
+    "duration": 300,
+    "type": "multi_timer",
     "details": {
-        "rhythm": 1
+        "timers": [
+            {
+                "start": 20,
+                "end": 300,
+                "performer": "GFDS"
+            },
+            {
+                "start": 50,
+                "end": 300,
+                "performer": "DDD"
+            },
+            {
+                "start": 0,
+                "end": 100,
+                "performer": "YUJHTRGRF"
+            }
+        ]
     },
     "performers": [
-        "EEE",
+        "GFDS",
         "DDD",
-        "CC"
-    ]
-},
-{
-    "id": "mod_chakra_2",
-    "title": "2號 生殖輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 3
-    },
-    "performers": [
-        "BB",
-        "AA",
-        "CC"
-    ]
-},
-{
-    "id": "mod_chakra_5",
-    "title": "5號 喉輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 7
-    },
-    "performers": [
-        "AA",
-        "BB",
-        "CC"
+        "YUJHTRGRF"
     ]
 },
 {
@@ -195,9 +214,21 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "CC",
-        "DDD",
-        "BB"
+        "YUJHTRGRF",
+        "SWV",
+        "DDD"
+    ]
+},
+{
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "YUJHTRGRF",
+        "SWV",
+        "DCSV",
+        "GFDS"
     ]
 },
 {
@@ -208,73 +239,38 @@
     "details": {
         "lanes": [
             {
-                "type": "圖騰",
-                "start": 0,
+                "type": "無限",
+                "start": 20,
                 "end": 360,
-                "performer": "CC"
+                "performer": "GFDS"
             },
             {
-                "type": "圖騰",
-                "start": 0,
-                "end": 360,
+                "type": "123",
+                "start": 40,
+                "end": 120,
                 "performer": "DDD"
             },
             {
                 "type": "圖騰",
                 "start": 0,
-                "end": 360,
-                "performer": "BB"
+                "end": 50,
+                "performer": "YUJHTRGRF"
             }
         ]
     },
     "performers": [
-        "CC",
+        "GFDS",
         "DDD",
-        "BB"
+        "YUJHTRGRF"
     ]
 },
 {
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 150,
-    "type": "sound_layer",
-    "details": {
-        "layers": [
-            {
-                "id": "id_1753540875401_24e0d7xki",
-                "name": "1",
-                "start": 0,
-                "end": 150,
-                "performer": "DDD"
-            },
-            {
-                "id": "id_1753540877452_kcnuvvy16",
-                "name": "2",
-                "start": 0,
-                "end": 150,
-                "performer": "CC"
-            },
-            {
-                "id": "id_1753540879608_rjcvrpgbp",
-                "name": "3",
-                "start": 0,
-                "end": 150,
-                "performer": "BB"
-            },
-            {
-                "id": "id_1753540882309_z1hw3kalv",
-                "name": "4",
-                "start": 20,
-                "end": 150,
-                "performer": "EEE"
-            }
-        ]
-    },
+    "id": "mod_end",
+    "title": "演出結束",
+    "duration": 0,
+    "type": "end",
     "performers": [
-        "CC",
-        "EEE",
-        "DDD",
-        "BB"
+        "全體"
     ]
 }
 ];
