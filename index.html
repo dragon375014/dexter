@@ -116,38 +116,54 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "DCSV": {
-        "color": "#0062ff"
+    "AA": {
+        "color": "#3b82f6"
     },
-    "SWV": {
-        "color": "#ff0000"
+    "BB": {
+        "color": "#f59e0b"
     },
-    "YUJHTRGRF": {
-        "color": "#5ff7ec"
+    "CC": {
+        "color": "#8b5cf6"
     },
-    "DDD": {
+    "+7857": {
         "color": "#ff0080"
     },
-    "GFDS": {
-        "color": "#ffa200"
+    "EEE": {
+        "color": "#10b981"
     },
     "全體": {
-        "color": "#ff00bb"
+        "color": "#a855f7"
+    },
+    "表演者 7": {
+        "color": "#adffe4"
+    },
+    "表演者 8": {
+        "color": "#a8fff5"
+    },
+    "表演者 9": {
+        "color": "#06b6d4"
     }
 };
         const schedule = [
 {
-    "id": "mod_chakra_3",
-    "title": "3號 太陽神經叢",
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
+    "performers": [
+        "全體"
+    ]
+},
+{
+    "id": "mod_chakra_1",
+    "title": "1號 海底輪",
     "duration": 60,
     "type": "rhythm",
     "details": {
-        "rhythm": 4
+        "rhythm": 1
     },
     "performers": [
-        "DCSV",
-        "YUJHTRGRF",
-        "SWV"
+        "全體"
     ]
 },
 {
@@ -159,9 +175,65 @@
         "rhythm": 10
     },
     "performers": [
-        "YUJHTRGRF",
-        "SWV",
-        "DDD"
+        "全體"
+    ]
+},
+{
+    "id": "mod_chakra_6",
+    "title": "6號 眉心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 8
+    },
+    "performers": [
+        "EEE",
+        "+7857",
+        "表演者 7",
+        "表演者 8",
+        "表演者 9"
+    ]
+},
+{
+    "id": "mod_etheric",
+    "title": "乙太體 & 增能",
+    "duration": 50,
+    "type": "multi_timer",
+    "details": {
+        "timers": [
+            {
+                "start": 5,
+                "end": 50,
+                "performer": "表演者 7"
+            },
+            {
+                "start": 10,
+                "end": 50,
+                "performer": "表演者 8"
+            },
+            {
+                "start": 15,
+                "end": 50,
+                "performer": "EEE"
+            },
+            {
+                "start": 20,
+                "end": 50,
+                "performer": "+7857"
+            },
+            {
+                "start": 30,
+                "end": 50,
+                "performer": "CC"
+            }
+        ]
+    },
+    "performers": [
+        "表演者 7",
+        "表演者 8",
+        "EEE",
+        "+7857",
+        "CC"
     ]
 },
 {
@@ -172,85 +244,32 @@
     "details": {
         "layers": [
             {
-                "id": "id_1753765602509_5sq9jgqez",
-                "name": "新樂器",
+                "id": "id_1753946852252_cs4xee3rj",
+                "name": "新樂器8",
                 "start": 5,
-                "end": 50,
-                "performer": "GFDS"
+                "end": 150,
+                "performer": "CC"
             },
             {
-                "id": "id_1753765606404_jcf3298ae",
-                "name": "新樂器",
+                "id": "id_1753946853776_nuwu6laxg",
+                "name": "新樂器4",
+                "start": 30,
+                "end": 80,
+                "performer": "+7857"
+            },
+            {
+                "id": "id_1753946855429_k09c5zjpm",
+                "name": "新樂器2",
                 "start": 0,
                 "end": 150,
-                "performer": "DDD"
-            },
-            {
-                "id": "id_1753765609657_p8bylomtt",
-                "name": "新樂器",
-                "start": 20,
-                "end": 150,
-                "performer": "YUJHTRGRF"
+                "performer": "BB"
             }
         ]
     },
     "performers": [
-        "GFDS",
-        "DDD",
-        "YUJHTRGRF"
-    ]
-},
-{
-    "id": "mod_etheric",
-    "title": "乙太體 & 增能",
-    "duration": 300,
-    "type": "multi_timer",
-    "details": {
-        "timers": [
-            {
-                "start": 20,
-                "end": 300,
-                "performer": "GFDS"
-            },
-            {
-                "start": 50,
-                "end": 300,
-                "performer": "DDD"
-            },
-            {
-                "start": 0,
-                "end": 100,
-                "performer": "YUJHTRGRF"
-            }
-        ]
-    },
-    "performers": [
-        "GFDS",
-        "DDD",
-        "YUJHTRGRF"
-    ]
-},
-{
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
-    "performers": [
-        "YUJHTRGRF",
-        "SWV",
-        "DDD"
-    ]
-},
-{
-    "id": "mod_outro_2",
-    "title": "收尾-海豚音進場",
-    "duration": 15,
-    "type": "sequence",
-    "performers": [
-        "YUJHTRGRF",
-        "SWV",
-        "DCSV",
-        "GFDS"
+        "CC",
+        "+7857",
+        "BB"
     ]
 },
 {
@@ -262,37 +281,57 @@
         "lanes": [
             {
                 "type": "無限",
-                "start": 20,
+                "start": 0,
                 "end": 360,
-                "performer": "GFDS"
-            },
-            {
-                "type": "123",
-                "start": 40,
-                "end": 120,
-                "performer": "DDD"
+                "performer": "+7857"
             },
             {
                 "type": "圖騰",
                 "start": 0,
-                "end": 50,
-                "performer": "YUJHTRGRF"
+                "end": 360,
+                "performer": "EEE"
+            },
+            {
+                "type": "無限",
+                "start": 0,
+                "end": 360,
+                "performer": "表演者 7"
+            },
+            {
+                "type": "無限",
+                "start": 50,
+                "end": 360,
+                "performer": "表演者 8"
+            },
+            {
+                "type": "圖騰",
+                "start": 0,
+                "end": 360,
+                "performer": "表演者 9"
             }
         ]
     },
     "performers": [
-        "GFDS",
-        "DDD",
-        "YUJHTRGRF"
+        "+7857",
+        "EEE",
+        "表演者 7",
+        "表演者 8",
+        "表演者 9"
     ]
 },
 {
-    "id": "mod_end",
-    "title": "演出結束",
-    "duration": 0,
-    "type": "end",
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
     "performers": [
-        "全體"
+        "EEE",
+        "+7857",
+        "表演者 7",
+        "表演者 8",
+        "表演者 9",
+        "AA",
+        "BB"
     ]
 }
 ];
