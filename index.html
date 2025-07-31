@@ -125,151 +125,36 @@
     "CC": {
         "color": "#8b5cf6"
     },
-    "+7857": {
-        "color": "#ff0080"
+    "DDD": {
+        "color": "#ec4899"
     },
     "EEE": {
         "color": "#10b981"
     },
     "全體": {
         "color": "#a855f7"
-    },
-    "表演者 7": {
-        "color": "#adffe4"
-    },
-    "表演者 8": {
-        "color": "#a8fff5"
-    },
-    "表演者 9": {
-        "color": "#06b6d4"
     }
 };
         const schedule = [
 {
-    "id": "mod_cleanse",
-    "title": "逆時針清理 (3圈)",
-    "duration": 135,
-    "type": "default",
-    "performers": [
-        "全體"
-    ]
-},
-{
-    "id": "mod_chakra_1",
-    "title": "1號 海底輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 1
-    },
-    "performers": [
-        "全體"
-    ]
-},
-{
-    "id": "mod_chakra_7",
-    "title": "7號 頂輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 10
-    },
-    "performers": [
-        "全體"
-    ]
-},
-{
-    "id": "mod_chakra_6",
-    "title": "6號 眉心輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 8
-    },
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
     "performers": [
         "EEE",
-        "+7857",
-        "表演者 7",
-        "表演者 8",
-        "表演者 9"
-    ]
-},
-{
-    "id": "mod_etheric",
-    "title": "乙太體 & 增能",
-    "duration": 50,
-    "type": "multi_timer",
-    "details": {
-        "timers": [
-            {
-                "start": 5,
-                "end": 50,
-                "performer": "表演者 7"
-            },
-            {
-                "start": 10,
-                "end": 50,
-                "performer": "表演者 8"
-            },
-            {
-                "start": 15,
-                "end": 50,
-                "performer": "EEE"
-            },
-            {
-                "start": 20,
-                "end": 50,
-                "performer": "+7857"
-            },
-            {
-                "start": 30,
-                "end": 50,
-                "performer": "CC"
-            }
-        ]
-    },
-    "performers": [
-        "表演者 7",
-        "表演者 8",
-        "EEE",
-        "+7857",
         "CC"
     ]
 },
 {
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 150,
-    "type": "sound_layer",
-    "details": {
-        "layers": [
-            {
-                "id": "id_1753946852252_cs4xee3rj",
-                "name": "新樂器8",
-                "start": 5,
-                "end": 150,
-                "performer": "CC"
-            },
-            {
-                "id": "id_1753946853776_nuwu6laxg",
-                "name": "新樂器4",
-                "start": 30,
-                "end": 80,
-                "performer": "+7857"
-            },
-            {
-                "id": "id_1753946855429_k09c5zjpm",
-                "name": "新樂器2",
-                "start": 0,
-                "end": 150,
-                "performer": "BB"
-            }
-        ]
-    },
+    "id": "mod_outro_1",
+    "title": "收尾-敲「空」",
+    "duration": 15,
+    "type": "sequence",
     "performers": [
         "CC",
-        "+7857",
-        "BB"
+        "EEE",
+        "DDD"
     ]
 },
 {
@@ -280,58 +165,102 @@
     "details": {
         "lanes": [
             {
-                "type": "無限",
+                "type": "圖騰",
                 "start": 0,
                 "end": 360,
-                "performer": "+7857"
+                "performer": "CC"
             },
             {
                 "type": "圖騰",
                 "start": 0,
                 "end": 360,
-                "performer": "EEE"
-            },
-            {
-                "type": "無限",
-                "start": 0,
-                "end": 360,
-                "performer": "表演者 7"
-            },
-            {
-                "type": "無限",
-                "start": 50,
-                "end": 360,
-                "performer": "表演者 8"
-            },
-            {
-                "type": "圖騰",
-                "start": 0,
-                "end": 360,
-                "performer": "表演者 9"
+                "performer": "AA"
             }
         ]
     },
     "performers": [
-        "+7857",
-        "EEE",
-        "表演者 7",
-        "表演者 8",
-        "表演者 9"
+        "CC",
+        "AA"
     ]
 },
 {
-    "id": "mod_outro_2",
-    "title": "收尾-海豚音進場",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_etheric",
+    "title": "乙太體 & 增能",
+    "duration": 300,
+    "type": "multi_timer",
+    "details": {
+        "timers": [
+            {
+                "start": 5,
+                "end": 300,
+                "performer": "BB"
+            },
+            {
+                "start": 20,
+                "end": 300,
+                "performer": "全體"
+            },
+            {
+                "start": 50,
+                "end": 300,
+                "performer": "DDD"
+            }
+        ]
+    },
+    "performers": [
+        "BB",
+        "全體",
+        "DDD"
+    ]
+},
+{
+    "id": "mod_sound_layer",
+    "title": "聲音交織",
+    "duration": 150,
+    "type": "sound_layer",
+    "details": {
+        "layers": [
+            {
+                "id": "id_1753947008780_ro9uyss6g",
+                "name": "新樂器",
+                "start": 0,
+                "end": 150,
+                "performer": "EEE"
+            },
+            {
+                "id": "id_1753947010592_ivtqts9i0",
+                "name": "新樂器",
+                "start": 0,
+                "end": 150,
+                "performer": "DDD"
+            },
+            {
+                "id": "id_1753947012453_zrjet9c3k",
+                "name": "新樂器",
+                "start": 0,
+                "end": 150,
+                "performer": "CC"
+            }
+        ]
+    },
     "performers": [
         "EEE",
-        "+7857",
-        "表演者 7",
-        "表演者 8",
-        "表演者 9",
-        "AA",
-        "BB"
+        "DDD",
+        "CC"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "自由定義",
+    "duration": 60,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
+    "performers": [
+        "DDD",
+        "CC",
+        "EEE"
     ]
 }
 ];
