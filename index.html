@@ -116,23 +116,8 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "AA": {
-        "color": "#3b82f6"
-    },
-    "BB": {
-        "color": "#f59e0b"
-    },
-    "CC": {
-        "color": "#8b5cf6"
-    },
-    "DDD": {
-        "color": "#ec4899"
-    },
     "EEE": {
         "color": "#10b981"
-    },
-    "全體": {
-        "color": "#a855f7"
     }
 };
         const schedule = [
@@ -142,94 +127,65 @@
     "duration": 30,
     "type": "default",
     "performers": [
-        "DDD"
-    ]
-},
-{
-    "id": "mod_action_1",
-    "title": "開心輪 (7下)",
-    "duration": 60,
-    "type": "action",
-    "performers": [
-        "CC"
-    ]
-},
-{
-    "id": "mod_chakra_1",
-    "title": "1號 海底輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 1
-    },
-    "performers": [
-        "CC",
-        "DDD",
         "EEE"
     ]
 },
 {
-    "id": "mod_chakra_3",
-    "title": "3號 太陽神經叢",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 4
-    },
+    "id": "mod_awaken",
+    "title": "醒鑼",
+    "duration": 180,
+    "type": "default",
     "performers": [
-        "DDD",
-        "CC",
-        "BB"
-    ]
-},
-{
-    "id": "mod_chakra_7",
-    "title": "7號 頂輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 10
-    },
-    "performers": [
-        "DDD",
-        "CC",
         "EEE"
     ]
 },
 {
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 150,
-    "type": "sound_layer",
+    "id": "mod_chakra_5",
+    "title": "5號 喉輪",
+    "duration": 60,
+    "type": "rhythm",
     "details": {
-        "layers": [
+        "rhythm": 7
+    },
+    "performers": [
+        "EEE"
+    ]
+},
+{
+    "id": "mod_end",
+    "title": "演出結束",
+    "duration": 0,
+    "type": "end",
+    "performers": [
+        "EEE"
+    ]
+},
+{
+    "id": "mod_outro_1",
+    "title": "收尾-敲「空」",
+    "duration": 15,
+    "type": "sequence",
+    "performers": [
+        "EEE"
+    ]
+},
+{
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
             {
-                "id": "id_1755522364688_0inh3guox",
-                "name": "新樂器",
+                "type": "圖騰",
                 "start": 0,
-                "end": 150,
-                "performer": "DDD"
-            },
-            {
-                "id": "id_1755522367072_xcmy5balk",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": "BB"
-            },
-            {
-                "id": "id_1755522369128_8kj8hx5dw",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": "CC"
+                "end": 360,
+                "performer": "EEE"
             }
         ]
     },
     "performers": [
-        "DDD",
-        "BB",
-        "CC"
+        "EEE"
     ]
 }
 ];
