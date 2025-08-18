@@ -116,18 +116,35 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
+    "AA": {
+        "color": "#3b82f6"
+    },
+    "BB": {
+        "color": "#f59e0b"
+    },
+    "CC": {
+        "color": "#8b5cf6"
+    },
+    "DDD": {
+        "color": "#ec4899"
+    },
     "EEE": {
         "color": "#10b981"
+    },
+    "全體": {
+        "color": "#a855f7"
     }
 };
         const schedule = [
 {
-    "id": "mod_intro_2",
-    "title": "前導-海豚音",
-    "duration": 30,
-    "type": "default",
+    "id": "mod_action_1",
+    "title": "開心輪 (7下)",
+    "duration": 60,
+    "type": "action",
     "performers": [
-        "EEE"
+        "DDD",
+        "CC",
+        "BB"
     ]
 },
 {
@@ -136,28 +153,16 @@
     "duration": 180,
     "type": "default",
     "performers": [
-        "EEE"
+        "全體"
     ]
 },
 {
-    "id": "mod_chakra_5",
-    "title": "5號 喉輪",
-    "duration": 60,
-    "type": "rhythm",
-    "details": {
-        "rhythm": 7
-    },
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
     "performers": [
-        "EEE"
-    ]
-},
-{
-    "id": "mod_end",
-    "title": "演出結束",
-    "duration": 0,
-    "type": "end",
-    "performers": [
-        "EEE"
+        "全體"
     ]
 },
 {
@@ -166,26 +171,20 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "EEE"
+        "BB",
+        "CC",
+        "EEE",
+        "DDD"
     ]
 },
 {
-    "id": "mod_gantt_1",
-    "title": "圖騰 & 無限",
-    "duration": 360,
-    "type": "gantt",
-    "details": {
-        "lanes": [
-            {
-                "type": "圖騰",
-                "start": 0,
-                "end": 360,
-                "performer": "EEE"
-            }
-        ]
-    },
+    "id": "mod_outro_2",
+    "title": "收尾-海豚音進場",
+    "duration": 15,
+    "type": "sequence",
     "performers": [
-        "EEE"
+        "CC",
+        "BB"
     ]
 }
 ];
