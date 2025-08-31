@@ -116,28 +116,52 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "CC": {
-        "color": "#8b5cf6"
+    "莎雯": {
+        "color": "#3b82f6"
     },
-    "DDD": {
-        "color": "#ec4899"
-    },
-    "EEE": {
-        "color": "#10b981"
-    },
-    "全體": {
-        "color": "#a855f7"
+    "鈺臻": {
+        "color": "#f59e0b"
     }
 };
         const schedule = [
+{
+    "id": "mod_intro_2",
+    "title": "前導-海豚音",
+    "duration": 30,
+    "type": "default",
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_awaken",
+    "title": "醒鑼",
+    "duration": 180,
+    "type": "default",
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
 {
     "id": "mod_action_1",
     "title": "開心輪 (7下)",
     "duration": 60,
     "type": "action",
     "performers": [
-        "EEE",
-        "DDD"
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_cleanse",
+    "title": "逆時針清理 (3圈)",
+    "duration": 135,
+    "type": "default",
+    "performers": [
+        "莎雯",
+        "鈺臻"
     ]
 },
 {
@@ -149,18 +173,8 @@
         "rhythm": 1
     },
     "performers": [
-        "DDD",
-        "CC"
-    ]
-},
-{
-    "id": "mod_cleanse",
-    "title": "逆時針清理 (3圈)",
-    "duration": 135,
-    "type": "default",
-    "performers": [
-        "DDD",
-        "CC"
+        "莎雯",
+        "鈺臻"
     ]
 },
 {
@@ -172,8 +186,8 @@
         "rhythm": 3
     },
     "performers": [
-        "DDD",
-        "EEE"
+        "莎雯",
+        "鈺臻"
     ]
 },
 {
@@ -185,9 +199,110 @@
         "rhythm": 4
     },
     "performers": [
-        "DDD",
-        "EEE",
-        "CC"
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_chakra_4",
+    "title": "4號 心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 5
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_chakra_5",
+    "title": "5號 喉輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 7
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_chakra_6",
+    "title": "6號 眉心輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 8
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_chakra_7",
+    "title": "7號 頂輪",
+    "duration": 60,
+    "type": "rhythm",
+    "details": {
+        "rhythm": 10
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_etheric",
+    "title": "乙太體 & 增能",
+    "duration": 300,
+    "type": "multi_timer",
+    "details": {
+        "timers": [
+            {
+                "start": 0,
+                "end": 300,
+                "performer": "莎雯"
+            },
+            {
+                "start": 0,
+                "end": 300,
+                "performer": "鈺臻"
+            }
+        ]
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限",
+    "duration": 360,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "type": "圖騰",
+                "start": 0,
+                "end": 360,
+                "performer": "莎雯"
+            },
+            {
+                "type": "圖騰",
+                "start": 0,
+                "end": 360,
+                "performer": "鈺臻"
+            }
+        ]
+    },
+    "performers": [
+        "莎雯",
+        "鈺臻"
     ]
 },
 {
@@ -196,44 +311,18 @@
     "duration": 15,
     "type": "sequence",
     "performers": [
-        "DDD",
-        "EEE"
+        "鈺臻",
+        "莎雯"
     ]
 },
 {
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 150,
-    "type": "sound_layer",
-    "details": {
-        "layers": [
-            {
-                "id": "id_1755523884683_wtxroejf0",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": "EEE"
-            },
-            {
-                "id": "id_1755523886236_fpwumdnqe",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": "DDD"
-            },
-            {
-                "id": "id_1755523888084_pgaw0peoz",
-                "name": "新樂器",
-                "start": 0,
-                "end": 150,
-                "performer": "CC"
-            }
-        ]
-    },
+    "id": "mod_end",
+    "title": "演出結束",
+    "duration": 0,
+    "type": "end",
     "performers": [
-        "EEE",
-        "DDD",
-        "CC"
+        "鈺臻",
+        "莎雯"
     ]
 }
 ];
