@@ -116,97 +116,20 @@
           appId: "1:310895489405:web:405e37003ea34376da9c14"
         };
         const performers = {
-    "莎雯": {
+    "Candy": {
         "color": "#3b82f6"
     },
-    "Candy": {
+    "莎雯": {
         "color": "#f59e0b"
     },
     "鈺臻": {
-        "color": "#8b5cf6"
+        "color": "#ec4899"
+    },
+    "全體": {
+        "color": "#a855f7"
     }
 };
         const schedule = [
-{
-    "id": "mod_awaken",
-    "title": "醒鑼",
-    "duration": 180,
-    "type": "default",
-    "performers": [
-        "鈺臻",
-        "Candy",
-        "莎雯"
-    ]
-},
-{
-    "id": "mod_sound_layer",
-    "title": "聲音交織",
-    "duration": 360,
-    "type": "sound_layer",
-    "details": {
-        "layers": [
-            {
-                "id": "id_1756637488146_4n3e82ivp",
-                "name": "鑼",
-                "start": 0,
-                "end": 120,
-                "performer": "莎雯"
-            },
-            {
-                "id": "id_1756637493943_78rojk7el",
-                "name": "鑼",
-                "start": 120,
-                "end": 240,
-                "performer": "Candy"
-            },
-            {
-                "id": "id_1756637496846_0ncksl08m",
-                "name": "鑼",
-                "start": 240,
-                "end": 360,
-                "performer": "鈺臻"
-            }
-        ]
-    },
-    "performers": [
-        "莎雯",
-        "Candy",
-        "鈺臻"
-    ]
-},
-{
-    "id": "mod_gantt_1",
-    "title": "圖騰 & 無限",
-    "duration": 180,
-    "type": "gantt",
-    "details": {
-        "lanes": [
-            {
-                "type": "圖騰",
-                "start": 0,
-                "end": 180,
-                "performer": "莎雯"
-            },
-            {
-                "type": "圖騰",
-                "start": 0,
-                "end": 180,
-                "performer": "Candy"
-            },
-            {
-                "type": "圖騰",
-                "start": 0,
-                "end": 180,
-                "performer": "鈺臻"
-            }
-        ]
-    },
-    "performers": [
-        "莎雯",
-        "Candy",
-        "鈺臻"
-    ]
-},
 {
     "id": "mod_cleanse",
     "title": "逆時針清理 (3圈)",
@@ -214,60 +137,156 @@
     "type": "default",
     "performers": [
         "鈺臻",
+        "莎雯",
+        "Candy"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "上三輪7次",
+    "duration": 20,
+    "type": "custom",
+    "details": {
+        "description": ""
+    },
+    "performers": [
         "Candy",
+        "鈺臻",
         "莎雯"
     ]
 },
 {
-    "id": "mod_chakra_4",
-    "title": "4號 心輪",
-    "duration": 60,
-    "type": "rhythm",
+    "id": "mod_custom",
+    "title": "下三輪7次",
+    "duration": 20,
+    "type": "custom",
     "details": {
-        "rhythm": 5
+        "description": "請在此輸入簡易說明..."
     },
     "performers": [
         "鈺臻",
-        "Candy",
-        "莎雯"
+        "莎雯",
+        "Candy"
     ]
 },
 {
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_custom",
+    "title": "左👈7次",
+    "duration": 20,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
     "performers": [
-        "鈺臻"
+        "鈺臻",
+        "莎雯",
+        "Candy"
     ]
 },
 {
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_custom",
+    "title": "右👉7次",
+    "duration": 20,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
+    "performers": [
+        "鈺臻",
+        "莎雯",
+        "Candy"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "自由發揮solo",
+    "duration": 300,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
     "performers": [
         "Candy"
     ]
 },
 {
-    "id": "mod_outro_1",
-    "title": "收尾-敲「空」",
-    "duration": 15,
-    "type": "sequence",
+    "id": "mod_custom",
+    "title": "自由發揮solo",
+    "duration": 300,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
+    "performers": [
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "自由發揮solo",
+    "duration": 300,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
     "performers": [
         "莎雯"
     ]
 },
 {
+    "id": "mod_gantt_1",
+    "title": "圖騰 & 無限",
+    "duration": 300,
+    "type": "gantt",
+    "details": {
+        "lanes": [
+            {
+                "type": "無限",
+                "start": 0,
+                "end": 300,
+                "performer": "Candy"
+            },
+            {
+                "type": "無限",
+                "start": 0,
+                "end": 300,
+                "performer": "莎雯"
+            },
+            {
+                "type": "無限",
+                "start": 0,
+                "end": 300,
+                "performer": "鈺臻"
+            }
+        ]
+    },
+    "performers": [
+        "Candy",
+        "莎雯",
+        "鈺臻"
+    ]
+},
+{
+    "id": "mod_custom",
+    "title": "左右一起 連續敲擊",
+    "duration": 60,
+    "type": "custom",
+    "details": {
+        "description": "請在此輸入簡易說明..."
+    },
+    "performers": [
+        "鈺臻",
+        "莎雯",
+        "Candy"
+    ]
+},
+{
     "id": "mod_end",
     "title": "演出結束",
-    "duration": 1,
+    "duration": 0,
     "type": "end",
     "performers": [
-        "莎雯",
-        "Candy",
-        "鈺臻"
+        "全體"
     ]
 }
 ];
